@@ -1,0 +1,119 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 575px)  {
+  .btn .btn-primary{
+    font-size: 14px;
+  }
+  .row>*{
+    width: 50% !important;
+  }
+}
+
+.container{
+  max-width: 980px !important;
+  margin: 53px auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.herosection-signup{
+  background: #000;
+  height: 250px;
+  width: 100%;
+}
+
+.herosection-signup h3{
+  text-align: center;
+  color: #FFF;
+  padding: 109px 0px;
+}
+
+h3.secone-form{
+  height: 59px;
+}
+
+.footer-signup{
+  background: #000;
+  height: 35px;
+  width: 100%;
+}
+
+.footer-signup p{
+  text-align: center;
+  color: #FFF;
+}
+
+.col-sm-6.forgetpassword{
+  text-align: right;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #fff !important;
+  background-color: #0d6efd !important;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.template{
+  width: 100%;
+  height: 85%;
+  border: 1px solid #dadce0;
+}
+
+.template:hover{
+  width: 100%;
+  height: 85%;
+  border: 1px solid #406eca;
+}
+
+.container-proposalproject{
+  margin: 15px 15px;
+}
+
+.proposal-content{
+  margin: 10px 15px;
+  font-size: 17px;
+  color: #202124;
+  font-weight: 500;
+}
+
+.Profile{
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 19px;
+}
